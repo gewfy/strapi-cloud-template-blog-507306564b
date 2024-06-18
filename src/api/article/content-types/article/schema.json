@@ -14,10 +14,20 @@
   "attributes": {
     "title": {
       "type": "string"
+            "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "description": {
       "type": "text",
       "maxLength": 80
+            "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "slug": {
       "type": "uid",
